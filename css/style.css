@@ -1,1 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    font-family: comic-sans, sans-serif;
+}
+
+
+header {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 3rem 0;
+
+}
+
+main {
+
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+
+.container {
+
+    padding: 2rem;
+    background-color: #999999;
+    border: 3px black solid;
+    width: 30rem;
+    position: relative;
+    /* flex-grow: 1; */
+
+}
+
+.container .chickenTxt,
+.container .beefTxt,
+.container .sushiTxt {
+
+
+
+    background-color: #D59898;
+    color: black;
+    padding: 6px 2rem;
+    font-weight: 700;
+    font-size: 20px;
+    display: inline;
+    border-bottom: 3px black solid;
+    border-left: 3px black solid;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10rem;
+    text-align: center;
+}
+
+.container .beefTxt {
+    color: white;
+    background-color: #C14543;
+}
+
+.container .sushiTxt {
+
+    background-color: #E5D198;
+}
+
+.container .dummyTxt {
+
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.sushit {
+    flex-grow: 0;
+}
